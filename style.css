@@ -9,3 +9,39 @@
     box-sizing: border-box;
     height: 100vh; overflow: hidden;
 }
+
+.main-container {
+    display: flex;
+    background-color: #0f172a; /* Slate 900 */
+    padding: 10px;
+    gap: 15px;
+    box-sizing: border-box;
+    height: 100%;
+    border-radius: 12px;
+}
+
+.sidebar {
+    width: 22%;
+    background-color: #1e293b; /* Slate 800 */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.sidebar-top-box {
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    box-sizing: border-box;
+}
+
+.sidebar-logo-brand {
+    background-color: #3b82f6;
+    flex: 0.3;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
