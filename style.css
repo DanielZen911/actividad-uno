@@ -45,7 +45,6 @@
     box-sizing: border-box;
     border-radius: 6px;
 }
-
 .sidebar-logo-text {
     background-color: #334155;
     flex: 0.7;
@@ -125,7 +124,7 @@
 .card {
     background-color: #0f172a;
     width: 30%;
-    height: 90%;
+    height: auto;
     padding: 15px;
     box-sizing: border-box;
     display: flex;
@@ -135,11 +134,11 @@
 }
 
 .card-img {
-    height: 160px;
+    height: 140px;
     width: 100%;
     object-fit: cover;
     margin: 0;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     box-sizing: border-box;
     border-radius: 4px;
 }
